@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#0b0b1e"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="18s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#25D366" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#25D366"/>
+      <stop offset="100%" stop-color="#25D366" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .t{font-family:'Courier New',monospace;font-weight:bold}
+    .name{font-size:100px;fill:#25D366;stroke:#25D366;stroke-width:2;stroke-dasharray:520;animation:draw 9s ease-in-out infinite}
+    @keyframes draw{
+      0%{stroke-dashoffset:520;fill-opacity:0}
+      40%{stroke-dashoffset:0;fill-opacity:0}
+      55%{fill-opacity:1}
+      90%{stroke-dashoffset:0;fill-opacity:1}
+      100%{stroke-dashoffset:520;fill-opacity:0}
+    }
+    .sub{font-size:20px;fill:#cfd8ff;animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    .b{animation:rise 7s linear infinite;opacity:0}
+    @keyframes rise{
+      0%{transform:translateY(0);opacity:0}
+      15%{opacity:.9}
+      85%{opacity:.9}
+      100%{transform:translateY(-300px);opacity:0}
+    }
+    .b1{animation-delay:0s}
+    .b2{animation-delay:1.2s;animation-duration:8s}
+    .b3{animation-delay:2.5s}
+    .b4{animation-delay:3.4s;animation-duration:9s}
+    .b5{animation-delay:4.6s;animation-duration:6s}
+    .b6{animation-delay:5.8s;animation-duration:8s}
+  </style>
+
+  <rect width="900" height="240" rx="18" fill="url(#bg)"/>
+
+  <g class="b b1"><rect x="40" y="250" width="96" height="36" rx="14" fill="#25D366"/><rect x="52" y="262" width="52" height="5" rx="2.5" fill="#fff"/><rect x="52" y="272" width="30" height="5" rx="2.5" fill="#fff" opacity=".7"/><text x="112" y="280" font-size="11" fill="#34B7F1" class="t">✓✓</text></g>
+  <g class="b b2"><rect x="150" y="250" width="80" height="32" rx="12" fill="#128C7E"/><rect x="161" y="261" width="44" height="5" rx="2.5" fill="#fff"/><rect x="161" y="271" width="24" height="5" rx="2.5" fill="#fff" opacity=".7"/></g>
+  <g class="b b3"><rect x="250" y="250" width="70" height="30" rx="12" fill="#25D366"/><rect x="260" y="260" width="40" height="5" rx="2.5" fill="#fff"/><rect x="260" y="269" width="20" height="5" rx="2.5" fill="#fff" opacity=".7"/></g>
+  <g class="b b4"><rect x="590" y="250" width="90" height="34" rx="14" fill="#128C7E"/><rect x="601" y="261" width="50" height="5" rx="2.5" fill="#fff"/><rect x="601" y="271" width="28" height="5" rx="2.5" fill="#fff" opacity=".7"/></g>
+  <g class="b b5"><rect x="700" y="250" width="100" height="36" rx="14" fill="#25D366"/><rect x="712" y="262" width="56" height="5" rx="2.5" fill="#fff"/><rect x="712" y="272" width="34" height="5" rx="2.5" fill="#fff" opacity=".7"/><text x="776" y="280" font-size="11" fill="#34B7F1" class="t">✓✓</text></g>
+  <g class="b b6"><rect x="810" y="250" width="66" height="30" rx="12" fill="#128C7E"/><rect x="820" y="260" width="36" height="5" rx="2.5" fill="#fff"/><rect x="820" y="269" width="18" height="5" rx="2.5" fill="#fff" opacity=".7"/></g>
+
+  <text x="450" y="128" text-anchor="middle" class="t name" filter="url(#glow)">ANU</text>
+  <text x="450" y="168" text-anchor="middle" class="t sub">WhatsApp Bot Dev • Termux • Kerala</text>
+
+  <rect x="-300" y="206" width="300" height="3" rx="1.5" fill="url(#scan)">
+    <animate attributeName="x" from="-300" to="900" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
