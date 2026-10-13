@@ -2,7 +2,7 @@
 
 <img src="photo.jpg" width="260" style="border-radius:20px" alt="ANSAD_SER" />
 
-# 👋 Hey, I'm Anu
+# 👋 Hey, I'm ANSAD SER
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Independent+Developer;WhatsApp+Bot+Builder;Coding+from+my+phone+%F0%9F%93%B1;Kerala%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 
