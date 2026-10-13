@@ -52,8 +52,8 @@
   <g class="b b5"><rect x="700" y="250" width="100" height="36" rx="14" fill="#25D366"/><rect x="712" y="262" width="56" height="5" rx="2.5" fill="#fff"/><rect x="712" y="272" width="34" height="5" rx="2.5" fill="#fff" opacity=".7"/><text x="776" y="280" font-size="11" fill="#34B7F1" class="t">✓✓</text></g>
   <g class="b b6"><rect x="810" y="250" width="66" height="30" rx="12" fill="#128C7E"/><rect x="820" y="260" width="36" height="5" rx="2.5" fill="#fff"/><rect x="820" y="269" width="18" height="5" rx="2.5" fill="#fff" opacity=".7"/></g>
 
-  <text x="450" y="128" text-anchor="middle" class="t name" filter="url(#glow)">ANU</text>
-  <text x="450" y="168" text-anchor="middle" class="t sub">WhatsApp Bot Dev • Termux • Kerala</text>
+  <text x="450" y="128" text-anchor="middle" class="t name" filter="url(#glow)">ANSAD_SER</text>
+  <text x="450" y="168" text-anchor="middle" class="t sub">Developer• Termux • Kerala</text>
 
   <rect x="-300" y="206" width="300" height="3" rx="1.5" fill="url(#scan)">
     <animate attributeName="x" from="-300" to="900" dur="3.5s" repeatCount="indefinite"/>
