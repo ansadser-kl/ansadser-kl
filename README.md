@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://i.ibb.co/0RYSW5QY/temp.jpg" width="240" style="border-radius:20px" alt="ANSAD SER" />
+<img src="https://i.ibb.co/0RYSW5QY/temp.jpg" width="2330" style="border-radius:20px" alt="ANSAD SER" />
 
 <br/><br/>
 
