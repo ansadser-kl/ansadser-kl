@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="photo.jpg" width="260" style="border-radius:20px" alt="ANSAD_SER" />
+<img src="https://i.ibb.co/0RYSW5QY/temp.jpg" width="260" style="border-radius:20px" alt="AnuANSAD SER" />
 
-# 👋 Hey, I'm ANSAD SER
+# 👋 Hey, I'm ansad_ser
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Independent+Developer;WhatsApp+Bot+Builder;Coding+from+my+phone+%F0%9F%93%B1;Kerala%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 
