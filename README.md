@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="photo.jpg" width="260" style="border-radius:20px" alt="Anu" />
+<img src="photo.jpg" width="260" style="border-radius:20px" alt="ANSAD_SER" />
 
 # 👋 Hey, I'm Anu
 
